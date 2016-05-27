@@ -1,0 +1,42 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading"><span class="footer-heading-title">Show and Learn</span> - A show about all things front-end, with design sprinkled on top</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-2">
+        <ul class="contact-list">
+          <li><img class="iso-decorated" src="{{ site.baseurl }}/images/iso-decorated.svg"></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>
+          {{ site.description }}.<br>
+          If you want to be on the show, ask for a shout-out, or sponsor us, feel free to shoot an email to <a href="mailto:hi@nicolasjengler.com.ar" title="Drop us a line!">hi@nicolasjengler.com.ar</a>
+        </p>
+      </div>
+
+      <div class="footer-col footer-col-1">
+        <ul class="social-media-list">
+          <li class="info">Nicolás Joel Engler is a UI/UX designer and front-end developer.</li>
+
+          {% if site.github_username %}
+          <li>
+            {% include icon-github.html username=site.github_username %}
+          </li>
+          {% endif %}
+
+          {% if site.twitter_username %}
+          <li>
+            {% include icon-twitter.html username=site.twitter_username %}
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+</footer>

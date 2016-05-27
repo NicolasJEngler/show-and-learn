@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.2 (29753) - http://www.bohemiancoding.com/sketch -->
+    <title>Isotype</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#6FE7DB" offset="0%"></stop>
+            <stop stop-color="#47DBCD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="100%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#A589F1" offset="0%"></stop>
+            <stop stop-color="#835AF1" offset="100%"></stop>
+        </linearGradient>
+        <path d="M256,459 C368.113804,459 459,368.113804 459,256 C459,143.886196 368.113804,53 256,53 C143.886196,53 53,143.886196 53,256 C53,368.113804 143.886196,459 256,459 Z" id="path-3"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#F5F8F8" offset="0%"></stop>
+            <stop stop-color="#E7ECED" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0,210.334989 L0,74.2294735 C0,33.8061354 33.075,0.732495138 73.5,0.732495138 C113.925,0.732495138 147,33.8061354 147,74.2294735 L147,210.334989 C147,250.758327 113.925,283.831967 73.5,283.831967 C33.075,283.831967 0,250.758327 0,210.334989 Z" id="path-6"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Identity" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Isotype">
+            <rect id="Base" fill="url(#linearGradient-1)" x="0" y="0" width="512" height="512" rx="64"></rect>
+            <g id="Circle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill="url(#linearGradient-2)" fill-rule="evenodd" xlink:href="#path-3"></use>
+            </g>
+            <g id="Mouse" transform="translate(183.000000, 114.000000)">
+                <g id="Shape">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                    <use fill="url(#linearGradient-5)" fill-rule="evenodd" xlink:href="#path-6"></use>
+                </g>
+                <ellipse id="Oval" fill="#FFFFFF" cx="74.8611111" cy="67.4241977" rx="12.25" ry="12.2494964"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

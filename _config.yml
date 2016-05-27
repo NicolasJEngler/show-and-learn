@@ -1,0 +1,21 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Show and Learn — A show about all things front-end, with design sprinkled on top
+site_name: Show and Learn
+site_tagline: A show about all things front-end, with design sprinkled on top
+email: nicojengler@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Show and Learn is a podcast/screencast show about all things front-end, with a bit of design sprinkled on top
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://showandlearn.it" # the base hostname & protocol for your site
+twitter_username: nicolasjengler
+github_username:  nicolasjengler
+
+# Build settings
+markdown: kramdown

@@ -3,24 +3,40 @@ layout: post
 title:  "Chapter #01: Introductions"
 date:   2016-05-27 00:17:42 -0300
 categories: meta
-excerpt: "Hello world! Welcome to the first chapter of \"Show and Learn\", a podcast/screencast series about all things front-end with a bit of design sprinkled on top. In this initial delivery we do some introductions and set the base of what we're going to talk about throughout the series."
+excerpt: "Hello world! Welcome to the first chapter of Show and Learn, a podcast/screencast series about all things front-end with a bit of design sprinkled on top. In this initial delivery we do some introductions and set the base of what we're going to talk about throughout the series."
+audio_url: /audio/Chapter-01.mp3
+audio_duration: "00:20:53"
+music_credits: http://www.bensound.com
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Hello world! Welcome to the first chapter of _Show and Learn_, a podcast/screencast series about all things front-end with a bit of design sprinkled on top. In this initial delivery we do some introductions and set the base of what we're going to talk about throughout the series.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+&nbsp;
 
-Jekyll also offers powerful support for code snippets:
+{% include player.html mp3=page.audio_url %}
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+&nbsp;
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+### Links list
+* CSS When/Else Rules - [http://tabatkins.github.io/specs/css-when-else/][when-else-rules]
+* Front-end development after Internet Explorer - [https://www.sitepoint.com/front-end-development-internet-explorer/][frontend-after-ie]
+* Family.scss - [http://lukyvj.github.io/family.scss/][family-scss]
+* Understanding semantics - [http://tink.uk/understanding-semantics/][semantics]
+* 2016 Logo trends - [https://www.logolounge.com/articles/2016-logo-trends][logo-trends]
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+&nbsp;
+
+Download this podcast:
+
+* [MP3 file][mp3]
+
+Music:
+
+* [Bensound][music-credits]
+
+[when-else-rules]: http://tabatkins.github.io/specs/css-when-else/
+[frontend-after-ie]: https://www.sitepoint.com/front-end-development-internet-explorer/
+[family-scss]: http://lukyvj.github.io/family.scss/
+[semantics]: http://tink.uk/understanding-semantics/
+[logo-trends]: https://www.logolounge.com/articles/2016-logo-trends
+[music-credits]: {{ page.music_credits }}
+[mp3]: {{ page.audio_url }}

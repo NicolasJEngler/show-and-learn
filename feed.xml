@@ -2,28 +2,52 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>{{ site.title | xml_escape }}</title>
     <description>{{ site.description | xml_escape }}</description>
     <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <language>en-us</language>
     <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+
+    <itunes:author>Nicolás J. Engler</itunes:author>
+    <itunes:subtitle>A show about all things front-end, with design sprinkled on top</itunes:subtitle>
+    <itunes:summary>{{ site.description | xml_escape }}</itunes:summary>
+
+    <itunes:owner>
+      <itunes:name>Nicolás J. Engler</itunes:name>
+      <itunes:email>hi@nicolasjengler.com.ar</itunes:email>
+    </itunes:owner>
+
+    <itunes:explicit>No</itunes:explicit>
+
+    <itunes:image href="{{ site.url }}/images/cover-art.png"/>
+
+    <itunes:category text="Technology">
+         <itunes:category text="Podcasting"/>
+    </itunes:category>
+
+    <copyright>Nicolás J. Engler — Copyright 2016</copyright>
+
+    {% for post in site.posts %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
+        <description>{{ post.excerpt | xml_escape }} Music: {{ post.music_credits }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+        <guid>{{ site.url }}{{ post.audio_url }}</guid>
         {% for tag in post.tags %}
         <category>{{ tag | xml_escape }}</category>
         {% endfor %}
         {% for cat in post.categories %}
         <category>{{ cat | xml_escape }}</category>
         {% endfor %}
+        <enclosure url="{{ site.url }}{{ post.audio_url }}" type="audio/mpeg"/>
+        <itunes:duration>{{ post.audio_duration }}</itunes:duration>
       </item>
     {% endfor %}
   </channel>

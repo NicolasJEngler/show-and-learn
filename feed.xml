@@ -27,7 +27,8 @@ layout: null
     <itunes:image href="{{ site.url }}/images/cover-art.png"/>
 
     <itunes:category text="Technology">
-         <itunes:category text="Podcasting"/>
+        <itunes:category text="Front-end development"/>
+        <itunes:category text="Design"/>
     </itunes:category>
 
     <copyright>Nicolás J. Engler — Copyright 2016</copyright>

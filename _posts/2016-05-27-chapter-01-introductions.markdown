@@ -2,7 +2,7 @@
 layout: post
 title:  "Episode #01: Introductions"
 date:   2016-05-27 00:17:42 -0300
-categories: meta
+categories: podcast
 excerpt: "Hello world! Welcome to the first episode of Show and Learn, a podcast/screencast series about all things front-end with a bit of design sprinkled on top. In this initial delivery we do some introductions and set the base of what we're going to talk about throughout the series."
 audio_url: /audio/Episode-01.mp3
 audio_duration: "00:20:53"

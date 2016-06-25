@@ -6,6 +6,7 @@ categories: podcast
 excerpt: "Hello world! Welcome to the first episode of Show and Learn, a podcast/screencast series about all things front-end with a bit of design sprinkled on top. In this initial delivery we do some introductions and set the base of what we're going to talk about throughout the series."
 audio_url: /audio/Episode-01.mp3
 audio_duration: "00:20:53"
+audio_size: 25064095
 music_credits: http://www.bensound.com
 ---
 Hello world! Welcome to the first episode of _Show and Learn_, a podcast/screencast series about all things front-end with a bit of design sprinkled on top. In this initial delivery we do some introductions and set the base of what we're going to talk about throughout the series.

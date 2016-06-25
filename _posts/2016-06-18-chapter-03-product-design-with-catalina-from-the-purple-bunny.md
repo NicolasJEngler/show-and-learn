@@ -6,6 +6,7 @@ categories: podcast
 excerpt: "Episode #03 has the pleasure to have Catalina De León Belloc as a co-host. #03 reviews 2 articles: the first one is Invision's 2016 Product Design Industry Report which talks about Product Design and its current trends and stats. The second article was written by Jeffrey Zeldman and its main subject are front-end development departments and how a front-end director position can help us write better code"
 audio_url: /audio/Episode-03.mp3
 audio_duration: "00:30:03"
+audio_size: 25956953
 music_credits: http://www.bensound.com
 ---
 Welcome everyone, and thanks for tuning in the third episode of _Show and Learn_. This time we have the pleasure to have Catalina De León Belloc from [The Purple Bunny][tpb], and [Indicius][indi], as a co-host.

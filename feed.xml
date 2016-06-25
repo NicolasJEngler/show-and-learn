@@ -47,7 +47,7 @@ layout: null
         {% for cat in post.categories %}
         <category>{{ cat | xml_escape }}</category>
         {% endfor %}
-        <enclosure url="{{ site.url }}{{ post.audio_url }}" type="audio/mpeg"/>
+        <enclosure url="{{ site.url }}{{ post.audio_url }}" length="{{ post.audio_size }}" type="audio/mpeg"/>
         <itunes:duration>{{ post.audio_duration }}</itunes:duration>
       </item>
     {% endfor %}

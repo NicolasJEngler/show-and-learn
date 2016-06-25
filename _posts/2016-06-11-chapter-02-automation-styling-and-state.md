@@ -6,6 +6,7 @@ categories: podcast
 excerpt: "Episode #02 talks a bit about everything. It jumps from subjects like environment creation and automation using Vagrant, states of a design, styling the `pre` tag using CSS, and how the `z-index` property affects a flexbox layout."
 audio_url: /audio/Episode-02.mp3
 audio_duration: "00:17:42"
+audio_size: 16303239
 music_credits: http://www.bensound.com
 ---
 Hey everyone, thanks for tuning in the second episode of _Show and Learn_. In this episode we jump rather abruptly in between subjects. We talk a handful of UI, UX, CSS; and, drumroll please, *automation*.

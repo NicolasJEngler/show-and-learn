@@ -9,7 +9,7 @@ audio_size: 15019303
 audio_duration: "00:16:04"
 music_credits: http://www.bensound.com
 ---
-Hi there, thanks for being kind enought to tune in the fourth episode of _Show and Learn_. In this delivery we see ourselves to a whole new world of fonts, courtesy of Google and Beth Fioritto's article _What the New Google Fonts Gets Right—and Wrong_.
+Hi there, thanks for being kind enough to tune in the fourth episode of _Show and Learn_. In this delivery we see ourselves to a whole new world of fonts, courtesy of Google and Beth Fioritto's article _What the New Google Fonts Gets Right—and Wrong_.
 
 Then, we move on to a review of Nicolás Bevacqua's article "_Gulp, Grunt, Whatever_" that taught us that we should use what suits us best, and not what is currently in fashion on the web design industry.
 

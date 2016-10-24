@@ -15,6 +15,8 @@ There were a ton of attendees, great speakers, and amazing talks. Feel free to c
 
 The episode goes through each and every one of the talks that were given, along with some extra information, and I share some of my personal experience and what this conference meant to me. I had a blast!
 
+![Bag of swag courtesy of CSSconf Argentina and its sponsors](/images/attachments/2016-08-07.jpg)
+
 **Editor's note**: I know I may seem tired in this episode, and I apologize for that. These last months have been completely bonkers for me, and I my lifestyle changed overnight. Hopefully, soon enought I'll be able to go back to a more normal frequency to ship new episodes.
 
 &nbsp;

@@ -12,8 +12,8 @@ site_tagline: A show about all things front-end, with design sprinkled on top
 email: nicojengler@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Show and Learn is a podcast/screencast show about all things front-end, with a bit of design sprinkled on top
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://showandlearn.it" # the base hostname & protocol for your site
+baseurl: "/showandlearn.it" # the subpath of your site, e.g. /blog
+url: "https://nicolasjengler.github.io" # the base hostname & protocol for your site
 twitter_username: nicolasjengler
 github_username:  nicolasjengler
 

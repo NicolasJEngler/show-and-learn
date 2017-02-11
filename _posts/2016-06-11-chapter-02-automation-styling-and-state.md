@@ -4,7 +4,7 @@ title: "Episode #02: Automation, styling, and state"
 date: 2016-06-11 10:45:00 -0300
 categories: podcast
 excerpt: "Episode #02 talks a bit about everything. It jumps from subjects like environment creation and automation using Vagrant, states of a design, styling the `pre` tag using CSS, and how the `z-index` property affects a flexbox layout."
-audio_url: /audio/Episode-02.mp3
+audio_url: /showandlearn.it/audio/Episode-02.mp3
 audio_duration: "00:17:42"
 audio_size: 16303239
 music_credits: http://www.bensound.com

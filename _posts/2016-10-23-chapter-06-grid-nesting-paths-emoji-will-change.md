@@ -4,7 +4,7 @@ title: "Episode #06: Grid Layout, Sass properties nesting, SVG paths with CSS, E
 date: 2016-10-23 21:10:00 -0300
 categories: podcast
 excerpt: "Episode #06 goes back to basics and reviews a bit of everything, from the CSS Grid Layout module turning into a Candidate Recommendation, passing through Sass propertis nesting, SVG paths with CSS, emoji silhouettes and outlines, and ending with an article about the will-change bug introduced in Chrome 53"
-audio_url: /audio/Episode-06.mp3
+audio_url: /showandlearn.it/audio/Episode-06.mp3
 audio_size: 17138664
 audio_duration: "00:17:45"
 music_credits: http://www.bensound.com

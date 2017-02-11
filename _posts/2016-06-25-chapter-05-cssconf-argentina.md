@@ -4,7 +4,7 @@ title: "Episode #05: CSSconf Argentina"
 date: 2016-06-25 21:10:00 -0300
 categories: podcast
 excerpt: "Episode #05 recaps the whole CSSconf Argentina event that took place on August 7 2016, at the Escuela Superior de Comercio Carlos Pellegrini."
-audio_url: /audio/Episode-05.mp3
+audio_url: /showandlearn.it/audio/Episode-05.mp3
 audio_size: 15498961
 audio_duration: "00:15:45"
 music_credits: http://www.bensound.com

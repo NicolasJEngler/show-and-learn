@@ -4,7 +4,7 @@ title: "Episode #04: Redesign, Underlines, Data, and Tools"
 date: 2016-06-25 16:38:00 -0300
 categories: podcast
 excerpt: "Episode #04 checks on the current state of Google Fonts, and build tools like Grunt or Gulp. Some discussions about native underlining versus techniques may come up on the way. Oh yeah, an opinion around inputting real data into your designs was also brought up."
-audio_url: /audio/Episode-04.mp3
+audio_url: /showandlearn.it/audio/Episode-04.mp3
 audio_size: 15019303
 audio_duration: "00:16:04"
 music_credits: http://www.bensound.com
